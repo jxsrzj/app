@@ -54,6 +54,16 @@ $ git status
 git commit -m 'first'
 ```
 
+查看提交日志
+```
+$ git log
+```
+
+恢复到某个版本
+```
+$ git reset --hard hash(前6位)
+```
+
 
 
 ### 设置忽略列表
