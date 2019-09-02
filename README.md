@@ -65,8 +65,36 @@ $ git reset --hard hash(前6位)
 ```
 
 
+将本地仓库推送到远程仓库
+```
+$ git remote add origin https://github.com/jxsrzj/app.git
+$ git push -u origin master
+```
+
+克隆仓库
+```
+git clone 仓库地址
+```
+
+
 
 ### 设置忽略列表
 在项目的根目录创建 
 .gitignore 文件
 文件中的每一行代表需要忽略的一个文件 或 目录
+
+
+### 分支操作
+当git仓库初始化的时候 会自动创建一个新的分支 这个分支叫做主分支(master)
+
+
+新建分支
+```
+$ git branch 分支名   创建分支
+$ git branch         查看分支
+```
+
+切换分支
+```
+$ git checkout 分支名  切换分支
+```
